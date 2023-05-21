@@ -368,7 +368,7 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get popupMenuLabel => 'Framgrunnsmeny';
 
   @override
-  String get postMeridiemAbbreviation => 'p.m.';
+  String get postMeridiemAbbreviation => 'PM';
 
   @override
   String get previousMonthTooltip => 'Førre månad';
