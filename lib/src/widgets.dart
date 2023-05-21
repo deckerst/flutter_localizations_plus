@@ -31,13 +31,13 @@ class WidgetsLocalizationNn extends GlobalWidgetsLocalizations {
   String get reorderItemLeft => 'Flytt til venstre';
 
   @override
-  String get reorderItemRight => 'Flytt til høyre';
+  String get reorderItemRight => 'Flytt til høgre';
 
   @override
-  String get reorderItemToEnd => 'Flytt til slutten';
+  String get reorderItemToEnd => 'Flytt til enden';
 
   @override
-  String get reorderItemToStart => 'Flytt til starten';
+  String get reorderItemToStart => 'Flytt til byrjinga';
 
   @override
   String get reorderItemUp => 'Flytt opp';
