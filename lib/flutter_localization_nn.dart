@@ -1,4 +1,13 @@
 library flutter_localization_nn;
 
-export 'package:flutter_localization_nn/src/nn_material_localization_delegate.dart';
-export 'package:flutter_localization_nn/src/nn_widgets_localization_delegate.dart';
+import 'src/cupertino.dart';
+import 'src/material.dart';
+import 'src/widgets.dart';
+
+class LocalizationsNn {
+  static const delegates = [
+    MaterialLocalizationNn.delegate,
+    CupertinoLocalizationNn.delegate,
+    WidgetsLocalizationNn.delegate,
+  ];
+}
