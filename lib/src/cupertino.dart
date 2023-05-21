@@ -62,10 +62,10 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String get alertDialogLabel => 'Varsel';
 
   @override
-  String get anteMeridiemAbbreviation => 'AM';
+  String get anteMeridiemAbbreviation => 'a.m.';
 
   @override
-  String get copyButtonLabel => 'Kopiér';
+  String get copyButtonLabel => 'Kopier';
 
   @override
   String get cutButtonLabel => 'Klipp ut';
@@ -101,10 +101,10 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String? get datePickerMinuteSemanticsLabelMany => null;
 
   @override
-  String? get datePickerMinuteSemanticsLabelOne => '1 minutt';
+  String? get datePickerMinuteSemanticsLabelOne => 'minutt';
 
   @override
-  String get datePickerMinuteSemanticsLabelOther => r'$minute minutter';
+  String get datePickerMinuteSemanticsLabelOther => r'$minute minutt';
 
   @override
   String? get datePickerMinuteSemanticsLabelTwo => null;
@@ -116,19 +116,19 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String get modalBarrierDismissLabel => 'Avvis';
 
   @override
-  String get noSpellCheckReplacementsLabel => 'No Replacements Found';
+  String get noSpellCheckReplacementsLabel => 'Fann ingen erstatning';
 
   @override
   String get pasteButtonLabel => 'Lim inn';
 
   @override
-  String get postMeridiemAbbreviation => 'PM';
+  String get postMeridiemAbbreviation => 'p.m.';
 
   @override
   String get searchTextFieldPlaceholderLabel => 'Søk';
 
   @override
-  String get selectAllButtonLabel => 'Velg alle';
+  String get selectAllButtonLabel => 'Vel alle';
 
   @override
   String get tabSemanticsLabelRaw => r'Fane $tabIndex av $tabCount';
@@ -143,7 +143,7 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String? get timerPickerHourLabelOne => 'time';
 
   @override
-  String get timerPickerHourLabelOther => 'timer';
+  String get timerPickerHourLabelOther => 'timar';
 
   @override
   String? get timerPickerHourLabelTwo => null;
