@@ -71,31 +71,31 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get anteMeridiemAbbreviation => 'AM';
 
   @override
-  String get backButtonTooltip => 'Tilbake';
+  String get backButtonTooltip => 'Attende';
 
   @override
-  String get bottomSheetLabel => 'Felt nederst';
+  String get bottomSheetLabel => 'Nedste område';
 
   @override
-  String get calendarModeButtonLabel => 'Bytt til kalender';
+  String get calendarModeButtonLabel => 'Byt til kalenderen';
 
   @override
   String get cancelButtonLabel => 'Avbryt';
 
   @override
-  String get closeButtonLabel => 'Lukk';
+  String get closeButtonLabel => 'Lat att';
 
   @override
-  String get closeButtonTooltip => 'Lukk';
+  String get closeButtonTooltip => 'Lat att';
 
   @override
   String get collapsedIconTapHint => 'Vis';
 
   @override
-  String get continueButtonLabel => 'Fortsett';
+  String get continueButtonLabel => 'Hald fram';
 
   @override
-  String get copyButtonLabel => 'Kopiér';
+  String get copyButtonLabel => 'Kopier';
 
   @override
   String get currentDateLabel => 'I dag';
@@ -110,25 +110,25 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get dateInputLabel => 'Skriv inn datoen';
 
   @override
-  String get dateOutOfRangeLabel => 'Utenfor perioden.';
+  String get dateOutOfRangeLabel => 'Utanfor tidsrommet.';
 
   @override
-  String get datePickerHelpText => 'Velg dato';
+  String get datePickerHelpText => 'Vel ein dato';
 
   @override
-  String get dateRangeEndDateSemanticLabelRaw => r'Sluttdato $fullDate';
+  String get dateRangeEndDateSemanticLabelRaw => r'Endedato $fullDate';
 
   @override
-  String get dateRangeEndLabel => 'Sluttdato';
+  String get dateRangeEndLabel => 'Endedato';
 
   @override
-  String get dateRangePickerHelpText => 'Velg datoperiode';
+  String get dateRangePickerHelpText => 'Vel eit datotidsrom';
 
   @override
-  String get dateRangeStartDateSemanticLabelRaw => r'Startdato $fullDate';
+  String get dateRangeStartDateSemanticLabelRaw => r'Byrjingsdato $fullDate';
 
   @override
-  String get dateRangeStartLabel => 'Startdato';
+  String get dateRangeStartLabel => 'Byrjingsdato';
 
   @override
   String get dateSeparator => '.';
@@ -137,13 +137,13 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get deleteButtonTooltip => 'Slett';
 
   @override
-  String get dialModeButtonLabel => 'Bytt til modus for valg fra urskive';
+  String get dialModeButtonLabel => 'Vel med urskiver';
 
   @override
-  String get dialogLabel => 'Dialogboks';
+  String get dialogLabel => 'Dialogvindauga';
 
   @override
-  String get drawerLabel => 'Navigasjonsmeny';
+  String get drawerLabel => 'Framfinningsmenyen';
 
   @override
   String get expandedIconTapHint => 'Skjul';
@@ -152,22 +152,22 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get firstPageTooltip => 'Første side';
 
   @override
-  String get hideAccountsLabel => 'Skjul kontoer';
+  String get hideAccountsLabel => 'Skjul kontoar';
 
   @override
-  String get inputDateModeButtonLabel => 'Bytt til innskriving';
+  String get inputDateModeButtonLabel => 'Skriv inn med tastaturet';
 
   @override
-  String get inputTimeModeButtonLabel => 'Bytt til tekstinndatamodus';
+  String get inputTimeModeButtonLabel => 'Skriv inn med tastaturet';
 
   @override
-  String get invalidDateFormatLabel => 'Ugyldig format.';
+  String get invalidDateFormatLabel => 'Ugildt format.';
 
   @override
-  String get invalidDateRangeLabel => 'Ugyldig periode.';
+  String get invalidDateRangeLabel => 'Ugildt tidsrom.';
 
   @override
-  String get invalidTimeLabel => 'Angi et gyldig klokkeslett';
+  String get invalidTimeLabel => 'Oppgje eit gildt klokkeslett.';
 
   @override
   String get keyboardKeyAlt => 'Alt';
@@ -176,13 +176,13 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get keyboardKeyAltGraph => 'Alt Gr';
 
   @override
-  String get keyboardKeyBackspace => 'Tilbaketast';
+  String get keyboardKeyBackspace => 'Attendetast';
 
   @override
   String get keyboardKeyCapsLock => 'Caps Lock';
 
   @override
-  String get keyboardKeyChannelDown => 'Forrige kanal';
+  String get keyboardKeyChannelDown => 'Førre kanal';
 
   @override
   String get keyboardKeyChannelUp => 'Neste kanal';
@@ -194,7 +194,7 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get keyboardKeyDelete => 'Del';
 
   @override
-  String get keyboardKeyEject => 'Løs ut';
+  String get keyboardKeyEject => 'Løys ut';
 
   @override
   String get keyboardKeyEnd => 'End';
@@ -302,7 +302,7 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get keyboardKeyScrollLock => 'ScrLk';
 
   @override
-  String get keyboardKeySelect => 'Velg';
+  String get keyboardKeySelect => 'Vel';
 
   @override
   String get keyboardKeyShift => 'Shift';
@@ -323,7 +323,7 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String? get licensesPackageDetailTextOne => '1 lisens';
 
   @override
-  String get licensesPackageDetailTextOther => r'$licenseCount lisenser';
+  String get licensesPackageDetailTextOther => r'$licenseCount lisensar';
 
   @override
   String? get licensesPackageDetailTextTwo => null;
@@ -332,7 +332,7 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String? get licensesPackageDetailTextZero => null;
 
   @override
-  String get licensesPageTitle => 'Lisenser';
+  String get licensesPageTitle => 'Lisensar';
 
   @override
   String get menuBarMenuLabel => 'Meny med menylinje';
@@ -341,43 +341,43 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get modalBarrierDismissLabel => 'Avvis';
 
   @override
-  String get moreButtonTooltip => 'Mer';
+  String get moreButtonTooltip => 'Meir';
 
   @override
-  String get nextMonthTooltip => 'Neste måned';
+  String get nextMonthTooltip => 'Neste månad';
 
   @override
   String get nextPageTooltip => 'Neste side';
 
   @override
-  String get okButtonLabel => 'OK';
+  String get okButtonLabel => 'Greitt';
 
   @override
-  String get openAppDrawerTooltip => 'Åpne navigasjonsmenyen';
+  String get openAppDrawerTooltip => 'Opn framfinningsmenyen';
 
   @override
   String get pageRowsInfoTitleRaw => r'$firstRow–$lastRow av $rowCount';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw => r'$firstRow–$lastRow av omtrent $rowCount';
+  String get pageRowsInfoTitleApproximateRaw => r'$firstRow–$lastRow av omkring $rowCount';
 
   @override
   String get pasteButtonLabel => 'Lim inn';
 
   @override
-  String get popupMenuLabel => 'Forgrunnsmeny';
+  String get popupMenuLabel => 'Framgrunnsmeny';
 
   @override
   String get postMeridiemAbbreviation => 'PM';
 
   @override
-  String get previousMonthTooltip => 'Forrige måned';
+  String get previousMonthTooltip => 'Førre månad';
 
   @override
-  String get previousPageTooltip => 'Forrige side';
+  String get previousPageTooltip => 'Førre side';
 
   @override
-  String get refreshIndicatorSemanticLabel => 'Laster inn på nytt';
+  String get refreshIndicatorSemanticLabel => 'Hentar fram på nytt';
 
   @override
   String? get remainingTextFieldCharacterCountFew => null;
@@ -386,10 +386,10 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String? get remainingTextFieldCharacterCountMany => null;
 
   @override
-  String? get remainingTextFieldCharacterCountOne => '1 tegn gjenstår';
+  String? get remainingTextFieldCharacterCountOne => '1 teikn att';
 
   @override
-  String get remainingTextFieldCharacterCountOther => r'$remainingCount tegn gjenstår';
+  String get remainingTextFieldCharacterCountOther => r'$remainingCount teikn att';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => null;
@@ -404,28 +404,28 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get reorderItemLeft => 'Flytt til venstre';
 
   @override
-  String get reorderItemRight => 'Flytt til høyre';
+  String get reorderItemRight => 'Flytt til høgre';
 
   @override
-  String get reorderItemToEnd => 'Flytt til slutten';
+  String get reorderItemToEnd => 'Flytt til enden';
 
   @override
-  String get reorderItemToStart => 'Flytt til starten';
+  String get reorderItemToStart => 'Flytt til byrjinga';
 
   @override
   String get reorderItemUp => 'Flytt opp';
 
   @override
-  String get rowsPerPageTitle => 'Rader per side:';
+  String get rowsPerPageTitle => 'Rader for kvar side:';
 
   @override
-  String get saveButtonLabel => 'Lagre';
+  String get saveButtonLabel => 'Spar';
 
   @override
   String get scrimLabel => 'Vev';
 
   @override
-  String get scrimOnTapHintRaw => r'Lukk $modalRouteContentName';
+  String get scrimOnTapHintRaw => r'Lat att $modalRouteContentName';
 
   @override
   ScriptCategory get scriptCategory => ScriptCategory.englishLike;
@@ -434,10 +434,10 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get searchFieldLabel => 'Søk';
 
   @override
-  String get selectAllButtonLabel => 'Velg alle';
+  String get selectAllButtonLabel => 'Vel alle';
 
   @override
-  String get selectYearSemanticsLabel => 'Velg året';
+  String get selectYearSemanticsLabel => 'Vel året';
 
   @override
   String? get selectedRowCountTitleFew => null;
@@ -446,10 +446,10 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String? get selectedRowCountTitleMany => null;
 
   @override
-  String? get selectedRowCountTitleOne => '1 element er valgt';
+  String? get selectedRowCountTitleOne => '1 ting er vald';
 
   @override
-  String get selectedRowCountTitleOther => r'$selectedRowCount elementer er valgt';
+  String get selectedRowCountTitleOther => r'$selectedRowCount ting er valde';
 
   @override
   String? get selectedRowCountTitleTwo => null;
@@ -458,13 +458,13 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String? get selectedRowCountTitleZero => null;
 
   @override
-  String get showAccountsLabel => 'Vis kontoer';
+  String get showAccountsLabel => 'Vis kontoane';
 
   @override
-  String get showMenuTooltip => 'Vis meny';
+  String get showMenuTooltip => 'Vis menyen';
 
   @override
-  String get signedInLabel => 'Pålogget';
+  String get signedInLabel => 'Logga på';
 
   @override
   String get tabLabelRaw => r'Fane $tabIndex av $tabCount';
@@ -473,29 +473,29 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   TimeOfDayFormat get timeOfDayFormatRaw => TimeOfDayFormat.HH_colon_mm;
 
   @override
-  String get timePickerDialHelpText => 'Velg tidspunkt';
+  String get timePickerDialHelpText => 'Vel eit tidspunkt';
 
   @override
   String get timePickerHourLabel => 'Time';
 
   @override
-  String get timePickerHourModeAnnouncement => 'Angi timer';
+  String get timePickerHourModeAnnouncement => 'Oppgje timar';
 
   @override
-  String get timePickerInputHelpText => 'Angi et tidspunkt';
+  String get timePickerInputHelpText => 'Oppgje eit tidspunkt';
 
   @override
   String get timePickerMinuteLabel => 'Minutt';
 
   @override
-  String get timePickerMinuteModeAnnouncement => 'Angi minutter';
+  String get timePickerMinuteModeAnnouncement => 'Oppgje minutt';
 
   @override
   String get unspecifiedDate => 'Dato';
 
   @override
-  String get unspecifiedDateRange => 'Datoperiode';
+  String get unspecifiedDateRange => 'Datotidsrom';
 
   @override
-  String get viewLicensesButtonLabel => 'Se lisenser';
+  String get viewLicensesButtonLabel => 'Sjå lisensar';
 }
