@@ -101,7 +101,7 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String? get datePickerMinuteSemanticsLabelMany => null;
 
   @override
-  String? get datePickerMinuteSemanticsLabelOne => 'minutt';
+  String? get datePickerMinuteSemanticsLabelOne => '1 minutt';
 
   @override
   String get datePickerMinuteSemanticsLabelOther => r'$minute minutt';
