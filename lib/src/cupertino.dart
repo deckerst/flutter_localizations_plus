@@ -62,7 +62,7 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String get alertDialogLabel => 'Varsel';
 
   @override
-  String get anteMeridiemAbbreviation => 'a.m.';
+  String get anteMeridiemAbbreviation => 'AM';
 
   @override
   String get copyButtonLabel => 'Kopier';
@@ -122,7 +122,7 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String get pasteButtonLabel => 'Lim inn';
 
   @override
-  String get postMeridiemAbbreviation => 'p.m.';
+  String get postMeridiemAbbreviation => 'PM';
 
   @override
   String get searchTextFieldPlaceholderLabel => 'Søk';
