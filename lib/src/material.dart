@@ -89,6 +89,9 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get closeButtonTooltip => 'Lukk';
 
   @override
+  String get collapsedHint => 'Expanded';
+
+  @override
   String get collapsedIconTapHint => 'Vis';
 
   @override
@@ -146,7 +149,22 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get drawerLabel => 'Navigasjonsmeny';
 
   @override
+  String get expandedHint => 'Collapsed';
+
+  @override
   String get expandedIconTapHint => 'Skjul';
+
+  @override
+  String get expansionTileCollapsedHint => 'double tap to expand';
+
+  @override
+  String get expansionTileCollapsedTapHint => 'Expand for more details';
+
+  @override
+  String get expansionTileExpandedHint => "double tap to collapse'";
+
+  @override
+  String get expansionTileExpandedTapHint => 'Collapse';
 
   @override
   String get firstPageTooltip => 'Første side';
@@ -420,6 +438,9 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
 
   @override
   String get saveButtonLabel => 'Lagre';
+
+  @override
+  String get scanTextButtonLabel => 'Scan tekst';
 
   @override
   String get scrimLabel => 'Vev';
