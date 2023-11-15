@@ -89,7 +89,7 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get closeButtonTooltip => 'Lukk';
 
   @override
-  String get collapsedHint => 'Expanded';
+  String get collapsedHint => 'Vises';
 
   @override
   String get collapsedIconTapHint => 'Vis';
@@ -149,22 +149,22 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get drawerLabel => 'Navigasjonsmeny';
 
   @override
-  String get expandedHint => 'Collapsed';
+  String get expandedHint => 'Skjules';
 
   @override
   String get expandedIconTapHint => 'Skjul';
 
   @override
-  String get expansionTileCollapsedHint => 'double tap to expand';
+  String get expansionTileCollapsedHint => 'dobbelttrykk for å vise';
 
   @override
-  String get expansionTileCollapsedTapHint => 'Expand for more details';
+  String get expansionTileCollapsedTapHint => 'Vis for å se mer informasjon';
 
   @override
-  String get expansionTileExpandedHint => "double tap to collapse'";
+  String get expansionTileExpandedHint => 'dobbelttrykk for å skjule';
 
   @override
-  String get expansionTileExpandedTapHint => 'Collapse';
+  String get expansionTileExpandedTapHint => 'Skjul';
 
   @override
   String get firstPageTooltip => 'Første side';
@@ -353,7 +353,13 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get licensesPageTitle => 'Lisenser';
 
   @override
+  String get lookUpButtonLabel => 'Look Up';
+
+  @override
   String get menuBarMenuLabel => 'Meny med menylinje';
+
+  @override
+  String get menuDismissLabel => 'Lukk menyen';
 
   @override
   String get modalBarrierDismissLabel => 'Avvis';
@@ -440,7 +446,7 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get saveButtonLabel => 'Lagre';
 
   @override
-  String get scanTextButtonLabel => 'Scan tekst';
+  String get scanTextButtonLabel => 'Skann tekst';
 
   @override
   String get scrimLabel => 'Vev';
@@ -453,6 +459,9 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
 
   @override
   String get searchFieldLabel => 'Søk';
+
+  @override
+  String get searchWebButtonLabel => 'Search Web';
 
   @override
   String get selectAllButtonLabel => 'Velg alle';
@@ -477,6 +486,9 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
 
   @override
   String? get selectedRowCountTitleZero => null;
+
+  @override
+  String get shareButtonLabel => 'Share...';
 
   @override
   String get showAccountsLabel => 'Vis kontoer';

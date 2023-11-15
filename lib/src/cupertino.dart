@@ -43,6 +43,7 @@ class _NnCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoL
   bool shouldReload(covariant LocalizationsDelegate<CupertinoLocalizations> old) => false;
 }
 
+// Localization for Nynorsk, based on `CupertinoLocalizationNb` translation and `intl` date/number patterns
 class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   const CupertinoLocalizationNn({
     super.localeName = 'nn',
@@ -113,10 +114,16 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String? get datePickerMinuteSemanticsLabelZero => null;
 
   @override
+  String get lookUpButtonLabel => 'Look Up';
+
+  @override
+  String get menuDismissLabel => 'Lukk menyen';
+
+  @override
   String get modalBarrierDismissLabel => 'Avvis';
 
   @override
-  String get noSpellCheckReplacementsLabel => 'No Replacements Found';
+  String get noSpellCheckReplacementsLabel => 'Fant ingen erstatninger';
 
   @override
   String get pasteButtonLabel => 'Lim inn';
@@ -128,7 +135,13 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String get searchTextFieldPlaceholderLabel => 'Søk';
 
   @override
+  String get searchWebButtonLabel => 'Search Web';
+
+  @override
   String get selectAllButtonLabel => 'Velg alle';
+
+  @override
+  String get shareButtonLabel => 'Share...';
 
   @override
   String get tabSemanticsLabelRaw => r'Fane $tabIndex av $tabCount';
