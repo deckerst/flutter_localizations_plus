@@ -66,6 +66,9 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
   String get anteMeridiemAbbreviation => 'AM';
 
   @override
+  String get clearButtonLabel => 'Clear';
+
+  @override
   String get copyButtonLabel => 'Kopiér';
 
   @override
