@@ -83,6 +83,9 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
   String get cancelButtonLabel => 'Avbryt';
 
   @override
+  String get clearButtonTooltip => 'Clear text';
+
+  @override
   String get closeButtonLabel => 'Lukk';
 
   @override
@@ -468,6 +471,9 @@ class MaterialLocalizationNn extends GlobalMaterialLocalizations {
 
   @override
   String get selectYearSemanticsLabel => 'Velg året';
+
+  @override
+  String get selectedDateLabel => 'Selected';
 
   @override
   String? get selectedRowCountTitleFew => null;
