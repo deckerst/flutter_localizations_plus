@@ -1,10 +1,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_localization_nn/src/intl.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'package:intl/intl.dart' as intl;
 import 'package:intl/number_symbols_data.dart';
+
+import 'intl.dart';
 
 class _NnMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLocalizations> {
   static const localeName = 'nn';
@@ -12,7 +13,7 @@ class _NnMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLoc
   const _NnMaterialLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => locale.languageCode == localeName;
+  bool isSupported(Locale locale) => locale.languageCode == 'nn';
 
   static final Map<Locale, Future<MaterialLocalizations>> _loadedTranslations = {};
 

@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_localization_nn/src/intl.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'package:intl/intl.dart' as intl;
 import 'package:intl/number_symbols_data.dart';
+
+import 'intl.dart';
 
 class _NnCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
   static const localeName = 'nn';
