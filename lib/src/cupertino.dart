@@ -29,6 +29,7 @@ class _NnCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoL
       return SynchronousFuture<CupertinoLocalizations>(CupertinoLocalizationNn(
         fullYearFormat: intl.DateFormat.y(localeName),
         dayFormat: intl.DateFormat.d(localeName),
+        weekdayFormat: intl.DateFormat.E(localeName),
         mediumDateFormat: intl.DateFormat.MMMEd(localeName),
         singleDigitHourFormat: intl.DateFormat('HH', localeName),
         singleDigitMinuteFormat: intl.DateFormat.m(localeName),
@@ -49,6 +50,7 @@ class CupertinoLocalizationNn extends GlobalCupertinoLocalizations {
     super.localeName = 'nn',
     required super.fullYearFormat,
     required super.dayFormat,
+    required super.weekdayFormat,
     required super.mediumDateFormat,
     required super.singleDigitHourFormat,
     required super.singleDigitMinuteFormat,
