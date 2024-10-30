@@ -1,5 +1,5 @@
-name: flutter_localization_nn
-description: Localization package for Flutter to support the `Nynorsk (nn)` locale.
+name: flutter_localizations_plus
+description: Localization package for Flutter to support locales not already supported by `flutter_localizations`.
 version: 0.0.1
 publish_to: none
 
