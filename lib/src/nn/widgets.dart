@@ -19,26 +19,8 @@ class _NnWidgetLocalizationsDelegate extends LocalizationsDelegate<WidgetsLocali
   bool shouldReload(_NnWidgetLocalizationsDelegate old) => false;
 }
 
-class WidgetsLocalizationNn extends GlobalWidgetsLocalizations {
-  const WidgetsLocalizationNn() : super(TextDirection.ltr);
+class WidgetsLocalizationNn extends WidgetsLocalizationNb {
+  const WidgetsLocalizationNn();
 
   static const LocalizationsDelegate<WidgetsLocalizations> delegate = _NnWidgetLocalizationsDelegate();
-
-  @override
-  String get reorderItemDown => 'Flytt ned';
-
-  @override
-  String get reorderItemLeft => 'Flytt til venstre';
-
-  @override
-  String get reorderItemRight => 'Flytt til høyre';
-
-  @override
-  String get reorderItemToEnd => 'Flytt til slutten';
-
-  @override
-  String get reorderItemToStart => 'Flytt til starten';
-
-  @override
-  String get reorderItemUp => 'Flytt opp';
 }

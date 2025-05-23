@@ -28,17 +28,19 @@ class _EnShawMaterialLocalizationsDelegate extends LocalizationsDelegate<Materia
       );
       numberFormatSymbols.putIfAbsent(localeName, () => numberFormatSymbols['en'] as NumberSymbols);
 
-      return SynchronousFuture<MaterialLocalizations>(MaterialLocalizationEnShaw(
-        fullYearFormat: intl.DateFormat.y(localeName),
-        compactDateFormat: intl.DateFormat.yMd(localeName),
-        shortDateFormat: intl.DateFormat.yMMMd(localeName),
-        mediumDateFormat: intl.DateFormat.MMMEd(localeName),
-        longDateFormat: intl.DateFormat.yMMMMEEEEd(localeName),
-        yearMonthFormat: intl.DateFormat.yMMMM(localeName),
-        shortMonthDayFormat: intl.DateFormat.MMMd(localeName),
-        decimalFormat: intl.NumberFormat.decimalPattern(localeName),
-        twoDigitZeroPaddedFormat: intl.NumberFormat('00', localeName),
-      ));
+      return SynchronousFuture<MaterialLocalizations>(
+        MaterialLocalizationEnShaw(
+          fullYearFormat: intl.DateFormat.y(localeName),
+          compactDateFormat: intl.DateFormat.yMd(localeName),
+          shortDateFormat: intl.DateFormat.yMMMd(localeName),
+          mediumDateFormat: intl.DateFormat.MMMEd(localeName),
+          longDateFormat: intl.DateFormat.yMMMMEEEEd(localeName),
+          yearMonthFormat: intl.DateFormat.yMMMM(localeName),
+          shortMonthDayFormat: intl.DateFormat.MMMd(localeName),
+          decimalFormat: intl.NumberFormat.decimalPattern(localeName),
+          twoDigitZeroPaddedFormat: intl.NumberFormat('00', localeName),
+        ),
+      );
     });
   }
 
