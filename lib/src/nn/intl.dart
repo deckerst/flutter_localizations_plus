@@ -2,30 +2,12 @@ import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/number_symbols.dart';
 
 class IntlNn {
+  // from `flutter_localizations` / generated_date_localizations.dart / `dateSymbols['nb']`
   static final dateSymbols = intl.DateSymbols(
     NAME: 'nn',
-    ERAS: const <String>[
-      'f.Kr.',
-      'e.Kr.',
-    ],
-    ERANAMES: const <String>[
-      'før Kristus',
-      'etter Kristus',
-    ],
-    NARROWMONTHS: const <String>[
-      'J',
-      'F',
-      'M',
-      'A',
-      'M',
-      'J',
-      'J',
-      'A',
-      'S',
-      'O',
-      'N',
-      'D',
-    ],
+    ERAS: const <String>['f.Kr.', 'e.Kr.'],
+    ERANAMES: const <String>['før Kristus', 'etter Kristus'],
+    NARROWMONTHS: const <String>['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
     STANDALONENARROWMONTHS: const <String>[
       'J',
       'F',
@@ -71,11 +53,11 @@ class IntlNn {
     SHORTMONTHS: const <String>[
       'jan.',
       'feb.',
-      'mar.',
+      'mars',
       'apr.',
       'mai',
-      'jun.',
-      'jul.',
+      'juni',
+      'juli',
       'aug.',
       'sep.',
       'okt.',
@@ -114,84 +96,22 @@ class IntlNn {
       'fredag',
       'lørdag',
     ],
-    SHORTWEEKDAYS: const <String>[
-      'søn.',
-      'man.',
-      'tir.',
-      'ons.',
-      'tor.',
-      'fre.',
-      'lør.',
-    ],
-    STANDALONESHORTWEEKDAYS: const <String>[
-      'søn.',
-      'man.',
-      'tir.',
-      'ons.',
-      'tor.',
-      'fre.',
-      'lør.',
-    ],
-    NARROWWEEKDAYS: const <String>[
-      'S',
-      'M',
-      'T',
-      'O',
-      'T',
-      'F',
-      'L',
-    ],
-    STANDALONENARROWWEEKDAYS: const <String>[
-      'S',
-      'M',
-      'T',
-      'O',
-      'T',
-      'F',
-      'L',
-    ],
-    SHORTQUARTERS: const <String>[
-      'K1',
-      'K2',
-      'K3',
-      'K4',
-    ],
-    QUARTERS: const <String>[
-      '1. kvartal',
-      '2. kvartal',
-      '3. kvartal',
-      '4. kvartal',
-    ],
-    AMPMS: const <String>[
-      'a.m.',
-      'p.m.',
-    ],
-    DATEFORMATS: const <String>[
-      'EEEE d. MMMM y',
-      'd. MMMM y',
-      'd. MMM y',
-      'dd.MM.y',
-    ],
-    TIMEFORMATS: const <String>[
-      'HH:mm:ss zzzz',
-      'HH:mm:ss z',
-      'HH:mm:ss',
-      'HH:mm',
-    ],
+    SHORTWEEKDAYS: const <String>['søn.', 'man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lør.'],
+    STANDALONESHORTWEEKDAYS: const <String>['søn.', 'man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lør.'],
+    NARROWWEEKDAYS: const <String>['S', 'M', 'T', 'O', 'T', 'F', 'L'],
+    STANDALONENARROWWEEKDAYS: const <String>['S', 'M', 'T', 'O', 'T', 'F', 'L'],
+    SHORTQUARTERS: const <String>['K1', 'K2', 'K3', 'K4'],
+    QUARTERS: const <String>['1. kvartal', '2. kvartal', '3. kvartal', '4. kvartal'],
+    AMPMS: const <String>['a.m.', 'p.m.'],
+    DATEFORMATS: const <String>['EEEE d. MMMM y', 'd. MMMM y', 'd. MMM y', 'dd.MM.y'],
+    TIMEFORMATS: const <String>['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
     FIRSTDAYOFWEEK: 0,
-    WEEKENDRANGE: const <int>[
-      5,
-      6,
-    ],
+    WEEKENDRANGE: const <int>[5, 6],
     FIRSTWEEKCUTOFFDAY: 3,
-    DATETIMEFORMATS: const <String>[
-      '{1} {0}',
-      "{1} 'kl'. {0}",
-      '{1}, {0}',
-      '{1}, {0}',
-    ],
+    DATETIMEFORMATS: const <String>['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
   );
 
+  // from `flutter_localizations` / generated_date_localizations.dart / `datePatterns['nb']`
   static const datePatterns = {
     'd': 'd.',
     'E': 'ccc',
@@ -212,7 +132,7 @@ class IntlNn {
     'y': 'y',
     'yM': 'M.y',
     'yMd': 'd.M.y',
-    'yMEd': 'EEE d.MM.y',
+    'yMEd': 'EEE d.M.y',
     'yMMM': 'MMM y',
     'yMMMd': 'd. MMM y',
     'yMMMEd': 'EEE d. MMM y',
@@ -239,8 +159,9 @@ class IntlNn {
     'ZZZZ': 'ZZZZ',
   };
 
+  // from `intl` / number_symbols_data.dart / `numberFormatSymbols['nb']`
   static const numberSymbols = NumberSymbols(
-    NAME: "nb",
+    NAME: "nn",
     DECIMAL_SEP: ',',
     GROUP_SEP: '\u00A0',
     PERCENT: '%',
@@ -254,7 +175,7 @@ class IntlNn {
     DECIMAL_PATTERN: '#,##0.###',
     SCIENTIFIC_PATTERN: '#E0',
     PERCENT_PATTERN: '#,##0\u00A0%',
-    CURRENCY_PATTERN: '\u00A4\u00A0#,##0.00;\u00A4\u00A0-#,##0.00',
+    CURRENCY_PATTERN: '#,##0.00\u00A0\u00A4;-#,##0.00\u00A0\u00A4',
     DEF_CURRENCY_CODE: 'NOK',
   );
 }

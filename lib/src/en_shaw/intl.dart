@@ -191,7 +191,7 @@ class IntlEnShaw {
     ],
   );
 
-  // from `flutter_localizations` / generated_date_localizations.dart / `datePatterns[en]`
+  // from `flutter_localizations` / generated_date_localizations.dart / `datePatterns['en']`
   static const datePatterns = {
     'd': 'd',
     'E': 'ccc',
@@ -224,12 +224,12 @@ class IntlEnShaw {
     'H': 'HH',
     'Hm': 'HH:mm',
     'Hms': 'HH:mm:ss',
-    'j': 'h a',
-    'jm': 'h:mm a',
-    'jms': 'h:mm:ss a',
-    'jmv': 'h:mm a v',
-    'jmz': 'h:mm a z',
-    'jz': 'h a z',
+    'j': 'h a',
+    'jm': 'h:mm a',
+    'jms': 'h:mm:ss a',
+    'jmv': 'h:mm a v',
+    'jmz': 'h:mm a z',
+    'jz': 'h a z',
     'm': 'm',
     'ms': 'mm:ss',
     's': 's',
