@@ -1,5 +1,6 @@
 import 'src/en_shaw/material.dart';
 import 'src/en_shaw/widgets.dart';
+import 'src/kmr/cupertino.dart';
 import 'src/kmr/material.dart';
 import 'src/kmr/widgets.dart';
 import 'src/nn/material.dart';
@@ -16,6 +17,7 @@ class LocalizationsEnShaw {
 // Kurdî (Kurmancî)
 class LocalizationsKmr {
   static const delegates = [
+    CupertinoLocalizationKmr.delegate,
     MaterialLocalizationKmr.delegate,
     WidgetsLocalizationKmr.delegate,
   ];
